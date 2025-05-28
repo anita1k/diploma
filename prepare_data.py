@@ -60,7 +60,7 @@ def get_uf(split):
 
     return data
 
-def get_rd(split):
+def get_rd():
     dataset = datasets.load_from_disk(f'datasets/russian_dataset')
     
     def remove_after_first_eos(text):
